@@ -1,3 +1,27 @@
-body {
+* {
+    box-sizing: border-box;
     font-family: Roboto;
+}
+body {
+    margin: 0;
+}
+.heroSection {
+    background-color: #1F2937;
+}
+.heroMainText {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.heroSecondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.heroLogoText {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
 }
