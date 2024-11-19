@@ -25,10 +25,19 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.leftItems, .rightItems {
+.leftMenuBar, .rightMenuBar {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+.heroContentWrapper {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.leftHero, .rightHero {
+    width: 50%;
+    max-width: 400px;
 }
 
 footer {
