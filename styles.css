@@ -5,8 +5,11 @@
 body {
     margin: 0;
 }
-.heroSection {
+.heroWrapper {
     background-color: #1F2937;
+}
+.heroContent {
+    padding: 5px 250px;
 }
 .heroMainText {
     font-size: 48px;
@@ -23,21 +26,25 @@ body {
 }
 .menuBar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .leftMenuBar, .rightMenuBar {
     display: flex;
     align-items: center;
     gap: 16px;
 }
-.heroContentWrapper {
-    padding: 50px;
+.mainHero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 100px 0;
 }
 .leftHero, .rightHero {
     width: 50%;
-    max-width: 400px;
+}
+.rightHero img {
+    width: 100%;
+    height: auto;
 }
 
 footer {
