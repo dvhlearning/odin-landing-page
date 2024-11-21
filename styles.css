@@ -46,6 +46,13 @@ body {
     width: 100%;
     height: auto;
 }
+button.signUpButton {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
 
 footer {
     background-color: #1F2937;
