@@ -81,10 +81,10 @@ button.signUpButton {
     width: 150px;
 }
 
-.quoteSection {
+.quoteWrapper {
     background-color: #E5E7EB;
 }
-.quoteBox{
+.quoteBox {
     margin: 0 auto;
     max-width: 1000px;
     padding: 100px;
@@ -99,6 +99,29 @@ button.signUpButton {
     text-align: right;
     font-size: 28px;
     margin: 0;
+}
+
+.callToActionBox {
+    margin: 100px auto;
+    max-width: 1000px;
+    padding: 100px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.callToActionTitle {
+    font-size: 28px;
+}
+button.CTAbutton {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
 footer {
