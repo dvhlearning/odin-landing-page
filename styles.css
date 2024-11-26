@@ -5,6 +5,9 @@
 body {
     margin: 0;
 }
+button:hover {
+    cursor: pointer;
+}
 .heroWrapper {
     background-color: #1F2937;
 }
@@ -126,4 +129,6 @@ button.CTAbutton {
 
 footer {
     background-color: #1F2937;
+    text-align: center;
+    padding: 2em;
 }
